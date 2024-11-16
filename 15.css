@@ -1,0 +1,37 @@
+.game{
+    width: 500px;
+    height: 580px;
+    border: 2px solid #000000;
+    position: absolute;
+}
+.sky{
+    background-image:url('https://i0.wp.com/www.albertopasca.it/whiletrue/wp-content/uploads/2014/02/MarioBackground-scrolling-top.png') ;
+    width: 500px;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: absolute;
+    background-size: cover;
+}
+.ground{
+    background-image: url('https://images-ext-1.discordapp.net/external/ZtWxbgx_QE5ptbr0WzUyFU3iWccHHx0-x7QqlxLYsHU/https/www.sellanycode.com/system/assets/uploads/products/FlappyBirdReturns_sellanycode_featured_image_1685870161.png?format=webp&quality=lossless&width=885&height=450');
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    top: 460px;
+    z-index: 5;
+    
+}
+.bird{
+    background-image: url('FlappyBird.png');
+    position:absolute;
+    width:60px;
+    height:45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.block{ 
+    background-image:url('https://th.bing.com/th/id/R.2602a5f22e7835bea2895978e0838d1b?rik=o61Oh%2bxuaeW7Og&riu=http%3a%2f%2fpixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com%2fimage%2f4c7c6c37a714c33.png&ehk=OexS347dPCyyexB8efHqlPjmNCM2TPZnc9XGr%2fwArR4%3d&risl=&pid=ImgRaw&r=0');
+    width:60px;
+    height:300px; 
+    position:absolute;
+}
